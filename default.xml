@@ -6,6 +6,7 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/mattiatosolinits" name="ts"/>
 
   <project remote="yocto" revision="krogoth" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="krogoth" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
@@ -19,6 +20,9 @@
 
   <project remote="freescale" revision="krogoth" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="krogoth" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
+
+  <project remote="ts" revision="krogoth" name="meta-fsl-arm-ts" path="sources/meta-fsl-arm-ts"/>
+
   <project remote="freescale" revision="krogoth" name="Documentation" path="sources/Documentation"/>
 
 </manifest>
