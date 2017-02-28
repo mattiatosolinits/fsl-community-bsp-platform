@@ -21,7 +21,7 @@
   <project remote="freescale" revision="krogoth" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra"/>
   <project remote="freescale" revision="krogoth" name="meta-fsl-demos" path="sources/meta-fsl-demos"/>
 
-  <project remote="ts" revision="krogoth" name="meta-fsl-arm-ts" path="sources/meta-fsl-arm-ts"/>
+  <project remote="ts" revision="krogoth" name="meta-ts" path="sources/meta-fsl-arm-ts"/>
 
   <project remote="freescale" revision="krogoth" name="Documentation" path="sources/Documentation"/>
 
